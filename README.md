@@ -14,8 +14,8 @@ code .                          - (Open the Foulder is VS CODE)
 ```
 
 ```bash
-#Create a template.py file code and write code to it.
-python template.py -for run and create all the files
+#Create a template.py file code and write code to it. After write code always save all the files
+python template.py  -for run and create all the files
 ```
 
 ```bash
@@ -31,7 +31,6 @@ requirments added (commit)
 ```
 
 
-
 ```bash
 #Create a virtual environment for the project
 conda create -n signlang python=3.7 -y
@@ -41,7 +40,8 @@ conda create -n signlang python=3.7 -y
 conda activate signlang
 ```
 ```bash
-#Then write requirements.txt and setup.py files code and Active the virtual environment and install all the packages
+#Then write requirements.txt and setup.py files code and Active the virtual environment and install all the packages 
 pip install -r requirements.txt
+pip list       -check all requirements install or not
 ```
 
