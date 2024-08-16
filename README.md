@@ -44,4 +44,28 @@ conda activate signlang
 pip install -r requirements.txt
 pip list       -check all requirements install or not
 ```
+## Project DAY 2:
 
+```bash
+#AGENDA
+data collections- kaggle, Roboflow universe(create a file named data_collector.py)
+annotations of data-Roboflow/labellmg
+utility of models
+```
+
+```bash
+#AGENDA
+data collections- create a file named data_collector.py
+write the code    -then save and run it
+python data_collector.py   
+```
+```bash
+#Don't push the collected image in github write in .gitignore
+ColleectedImages/*  
+```
+```bash
+#write the logger code for create timetemp
+```
+```bash
+#write the exception code for rise the error message
+```
